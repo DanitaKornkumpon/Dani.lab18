@@ -6,7 +6,8 @@ struct Rect {
 };
 
 double overlap(Rect*R1, Rect*R2){
-    double x1,y1,x2,y2;
+    
+	double x1,y1,x2,y2;
     x1 = R1->x + R1->w;
     y1 = R1->y - R1->h;
     x2 = R2->x + R2->w;
